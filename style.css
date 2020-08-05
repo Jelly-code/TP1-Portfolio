@@ -42,13 +42,24 @@ header {
     justify-content: center;
 }
 
+.boton {
+    background-color: #faad80;
+    color: white;
+    padding: 2px 20px 5px 20px;
+    border-radius: 100px;
+}
+
 /* .nav-menu a:hover {
-    background-color: #e4bda6;
-    color:#72ad9a;
-    border: 1px solid #bef1e1;
-    padding: 5px 10px;
-    border-radius: 20px;
+    background-color: #fccdb2;
+    color:#f17b36;
+    border: 1px solid #ffe2cf;
+    padding: 5px 20px;
+    border-radius: 100px;
 } */
+
+.nav-menu a:hover {
+    border-bottom: 1px #f17b36;
+}
 
 
 
