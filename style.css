@@ -17,7 +17,7 @@ a {
     color: #fffdf8;   
 }
 
-    /* HEADER Y NAV */
+    /* #### HEADER Y NAV #### */
 
 header {
     background-color: #ffd890;
@@ -66,7 +66,7 @@ header {
     border-radius: 100px;
 } */
 
-/* SECCION 1 | PRINCIPAL */
+  /* #### SECCION 1 | PRINCIPAL #### */
 
 .seccion-principal {
     display: flex;
@@ -111,3 +111,29 @@ header {
     font-size: 20px;
 }
 
+/* #### SECCION 2 | CONOCIMIENTOS #### */
+
+.seccion2 {
+    background-color: #fcf5ed;
+    text-align: center;
+    padding: 50px;
+}
+
+.titulo2 {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.descripcion-conocimientos {
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.tarjeta {
+    display: inline-block;
+    color: #2e2e21;
+    padding: 40px 20px;
+    background-color: #fff;
+    border: 1px solid #dddfe5;
+    border-radius: 8px;
+}
