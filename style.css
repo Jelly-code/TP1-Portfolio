@@ -126,11 +126,11 @@ header {
 .seccion2 {
     background-color: #f9faf5;
     text-align: center;
-    padding: 50px;
+    padding: 70px 50px 90px 50px;
 }
 
-.titulo2 {
-    font-size: 45px;
+.titulo-seccion {
+    font-size: 50px;
     font-weight: 800;
 }
 
@@ -158,6 +158,42 @@ header {
     height: auto;
 }
 
+/* #### SECCION 3 | CITA Y PROYECTOS #### */
+
+.seccion3-cita {
+    background-color: #fff4e0;
+    color: #5f524d;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 80px 20px;
+}
+
+.contenido-cita {
+    height: 400px;
+}
+
+.cita {
+    max-width: 700px;
+    font-size: 20px;
+    margin: 60px 0;    
+}
+
+.cita-icono {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.cita-icono img {
+    height: 100%;
+}
+
+
+.cita-autor {
+    font-size: 50px;    
+}
 
 /* #### RESPONSIVE #### */
 
