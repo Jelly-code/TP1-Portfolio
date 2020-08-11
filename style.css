@@ -18,6 +18,10 @@ a {
     color: #fffdf8;   
 }
 
+ul {
+    list-style: none;
+}
+
     /* #### HEADER Y NAV #### */
 
 header {
@@ -245,6 +249,36 @@ header {
     height: auto;
 }
 
+/* #### SECCION 4 | FOOTER #### */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff4e0;
+    color: #c59f8f;
+}
+
+.footer-menu {
+    display: flex;
+    margin: 0;
+}
+
+.footer-item {
+    margin: 0 10px;
+
+}
+
+.footer-link {
+    font-size: 15px;
+    color: #c59f8f;
+}
+
+.ftr-rrss {
+    display: flex;
+    margin: 30px 0;
+}
 
 /* #### RESPONSIVE #### */
 
