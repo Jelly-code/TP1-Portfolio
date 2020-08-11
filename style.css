@@ -58,10 +58,10 @@ header {
     box-shadow: 2px 8px 10px rgba(115,115, 115, 0.25);
 }
 
-.boton:hover {
+/* .boton:hover {
     background-color: #ffe2bc;
     color: #faad80;
-}
+} */
 
 /* .nav-menu a:hover {
     background-color: #fccdb2;
@@ -216,6 +216,14 @@ header {
 
 .filtro-proyectos {
     margin: 30px 15px 0 0;
+    color: #faad80;    
+}
+
+.filtro-proyectos.boton {
+    background-color: #faad80;
+    color: white;
+    padding: 2px 20px 5px 20px;
+    border-radius: 100px;
     
 }
 
