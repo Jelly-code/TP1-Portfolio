@@ -157,6 +157,13 @@ header {
     padding: 30px;
 }
 
+.titulo-tarjeta {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #2e2e21;    
+}
+
 .imagen-tarjeta {
     width: 100px;
     height: auto;
@@ -175,19 +182,21 @@ header {
 
 .contenido-cita {
     height: 400px;
+    
 }
 
 .cita {
     max-width: 700px;
-    font-size: 20px;
-    margin: 60px 0;    
+    font-size: 30px;
+    margin: 60px 0;   
+    margin-left: 30px; 
+    padding-top: 20px;
 }
 
 .cita-icono {
     height: 120px;
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;    
 }
 
 .cita-icono img {
@@ -195,8 +204,10 @@ header {
 }
 
 
-.cita-autor {
-    font-size: 50px;    
+.autor-cita {
+    font-size: 30px;  
+    margin-left: 20px;
+    font-style: italic;  
 }
 
 /* #### SECCION 3 | PROYECTOS #### */
@@ -216,15 +227,17 @@ header {
     display: flex;
     justify-content: center;
     background-color: transparent;
+    margin-bottom: 20px;
 }
 
 .filtro-proyectos {
     margin: 30px 15px 0 0;
-    color: #faad80;    
+    color: #ec8549;  
+    font-size: 20px;  
 }
 
 .filtro-proyectos.boton {
-    background-color: #faad80;
+    background-color: #ec8549;
     color: white;
     padding: 2px 20px 5px 20px;
     border-radius: 100px;    
@@ -232,7 +245,7 @@ header {
 
 .proyecto {
     display: inline-block;
-    color: #2e2e21;
+    flex-wrap: wrap;
     padding: 40px 20px;
     background-color: #fff;
     border: 1px solid #dddfe5;
@@ -248,6 +261,7 @@ header {
     font-size: 20px;
     font-weight: 400;
     margin-top: 15px;
+    color: #2e2e21;
 }
 
 .imagen-proyecto {
