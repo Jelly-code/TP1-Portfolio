@@ -35,6 +35,16 @@ header {
     padding: 10px 80px 0 0;
 }
 
+.hamburguesa {
+    display: none;
+}
+
+.fa-bars {
+    cursor: pointer;
+    color: #faad80;
+    font-size: 17px;
+}
+
 .nav-menu {
     display: flex;
     font-size: 18px;
@@ -334,6 +344,21 @@ footer {
 /* #### RESPONSIVE #### */
 
 @media (max-width: 600px) {
+    /* MENU HAMBURGUESA */
+    .nav-menu {
+        display: none;
+    }
+    header {
+        justify-content: flex-end;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    .hamburguesa {
+        display: flex;
+        justify-content: flex-end;
+        margin: 15px 50px 10px 0;
+    }
+    /* SECCION PRINCIPAL */
     .seccion-principal {
         flex-direction: column;
         height: auto;
