@@ -227,8 +227,7 @@ header {
     background-color: #faad80;
     color: white;
     padding: 2px 20px 5px 20px;
-    border-radius: 100px;
-    
+    border-radius: 100px;    
 }
 
 .proyecto {
@@ -245,8 +244,9 @@ header {
 }
 
 .imagen-proyecto {
-    width: 100px;
+    width: 300px;
     height: auto;
+    padding-right: 60px;
 }
 
 /* #### SECCION 4 | FOOTER #### */
@@ -256,13 +256,14 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #fff4e0;
-    color: #c59f8f;
+    background-color: #ffdbb8;
+    color: #ff783a;
+    padding: 60px 0 40px 0;
 }
 
 .footer-menu {
     display: flex;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .footer-item {
@@ -276,7 +277,7 @@ footer {
 
 .footer-link {
     font-size: 15px;
-    color: #c59f8f;
+    color: #ff783a;
 }
 
 .footer-rrss {
@@ -291,7 +292,7 @@ footer {
 
 .ftr-icon {
     justify-content: center;
-    background-color: #faad80;
+    background-color: #ff783a;
     color: #fff; 
     width: 40px;
     height: 40px;
@@ -299,14 +300,14 @@ footer {
     border-radius: 80%;
     font-size: 20px;
     margin: 10px;
+    box-shadow: 2px 8px 10px rgba(120, 120, 120, 0.1);
 }
 
 .footer-texto {
     text-align: center;
-    color: #d1b9ae;
+    color: #ff783a;
     font-size: 15px;
     margin-bottom: 20px;
-
 }
 
 /* #### RESPONSIVE #### */
