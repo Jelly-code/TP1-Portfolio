@@ -237,16 +237,23 @@ header {
     background-color: #fff;
     border: 1px solid #dddfe5;
     border-radius: 8px;
-    width: 260px;
+    width: 300px;
+    height: 300px;
     margin: 10px;
     padding: 30px;
     overflow: hidden;
 }
 
+.titulo-proyecto {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
 .imagen-proyecto {
     width: 300px;
     height: auto;
-    padding-right: 60px;
+    
 }
 
 /* #### SECCION 4 | FOOTER #### */
