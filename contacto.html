@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Contacto | Javiera</title>
+</head>
+
+<body>
+    <!-- HEADER Y NAV -->
+
+    <div class="header">
+        <header>
+            <nav class="menu">
+                <ul class="nav-menu">
+                    <li class="link"><a href="#sobremi" class="nav-link">HOLA</a></li>
+                    <li class="link"><a href="#conocimientos" class="nav-link">CONOCIMIENTOS</a></li>
+                    <li class="link"><a href="#proyectos" class="nav-link">PROYECTOS</a></li>
+                    <li class="link btn-link"><a href="contacto.html" class="boton">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="hamburguesa">
+                <i class="fas fa-bars"><a href="#"></a></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- #### FORMULARIO CONTACTO #### -->
+
+    <div class="formulario-contacto">
+
+        <div class="formulario">
+            <h1>Contacto</h1>
+            <form action="submeter-formulario.php" method="post">
+
+                <p>
+                    <label for="nombre" class="escribir-nombre">Nombre
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" name="introducir-nombre" required="obligatorio"
+                        placeholder="Escribe tu nombre">
+                </p>
+                <p>
+                    <label for="email" class="escribir-email">Email
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="email" name="introducir-email" id="email" required="obligatorio"
+                        placeholder="Escribe tu Email">
+                </p>
+                <p>
+                    <label for="asunto" class="escribir-asunto">Asunto
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" name="introducir-asunto" id="assunto" required="obligatorio"
+                        placeholder="Escribe un asunto">
+                </p>
+
+                <p>
+                    <label for="mensaje" class="escribir-mensaje">Mensaje
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <textarea name="introducir-mensaje" class="texto_mensaje" required="obligatorio"
+                        placeholder="Deja aquí tu comentario..."></textarea>
+                </p>
+
+                <button type="submit" class="button" name="enviar-formulario">
+                    <p>Enviar</p>
+                </button>
+                <p class="aviso">
+                    <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <!-- #### FOOTER #### -->
+
+    <footer>
+        <nav class="footer-nav">
+            <ul class="footer-menu">
+                <li class="footer-item">
+                    <a href="#sobremi" class="footer-link">HOLA</a>
+                </li>
+                <li class="footer-item">
+                    <a href="#conocimientos" class="footer-link">CONOCIMIENTOS</a>
+                </li>
+                <li class="footer-item">
+                    <a href="#proyectos" class="footer-link">PROYECTOS</a>
+                </li>
+                <li class="footer-item">
+                    <a href="#contacto" class="footer-link">CONTACTO</a>
+                </li>
+            </ul>
+        </nav>
+        <ul class="footer-rrss">
+            <li class="footer-social">
+                <a href="https://github.com/Jelly-code" target="_blank" class="ftr-social-link">
+                    <i class="fab fa-github ftr-icon"></i>
+                </a>
+            </li>
+            <li class="footer-social">
+                <a href="https://twitter.com/stopthesunset" target="_blank" class="ftr-social-link">
+                    <i class="fab fa-twitter ftr-icon"></i>
+                </a>
+            </li>
+            <li class="footer-social">
+                <a href="https://www.linkedin.com/in/javiera-santa-maria/" target="_blank" class="ftr-social-link">
+                    <i class="fab fa-linkedin-in ftr-icon"></i>
+                </a>
+            </li>
+            <li class="footer-social">
+                <a href="contacto.html" class="ftr-social-link">
+                    <i class="fab far fa-envelope ftr-icon"></i>
+                </a>
+            </li>
+        </ul>
+        <p class="footer-texto">Hecho con ❤️ por Javi con ayuda de Ada.</p>
+    </footer>
+
+</body>
+
+</html>
