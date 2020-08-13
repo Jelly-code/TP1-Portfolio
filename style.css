@@ -438,10 +438,11 @@ footer {
         margin-left: 5px;
     }
     .nombre {
-        font-size: 45px;
+        font-size: 40px;
     }
     .sobremi-descripcion {
         margin: 30px 0 20px 0;
+        padding-right: 5px;
     }
     .imagen {
         margin: 30px 0;
@@ -504,17 +505,17 @@ footer {
         font-size: 27px;
     }
     .proyecto {
-        width: 80px;
-        height: 95px;
+        width: 90px;
+        height: 105px;
         margin: 10px;
         padding: 15px;
     }
     .imagen-proyecto {
-        width: 75px; 
+        width: 85px; 
         padding-right: 15px;
     }
     .titulo-proyecto {
-        font-size: 8px;
+        font-size: 10px;
         font-weight: 400;
         margin-top: 2px;
     }
