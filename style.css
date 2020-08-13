@@ -505,8 +505,8 @@ footer {
         font-size: 27px;
     }
     .proyecto {
-        width: 110px;
-        height: 115px;
+        width: 115px;
+        height: 120px;
         margin: 10px;
         padding: 15px;
     }
@@ -515,7 +515,7 @@ footer {
         padding-right: 15px;
     }
     .titulo-proyecto {
-        font-size: 10px;
+        font-size: 12px;
         font-weight: 400;
         margin-top: 2px;
     }
