@@ -149,8 +149,7 @@ header {
 }
 
 .descripcion-conocimientos {
-    margin-left: 500px;
-    margin-right: 500px;
+    text-align: center;
     color: #5f524d;
     padding: 10px 0 20px 0;
 }
@@ -253,15 +252,20 @@ header {
     border-radius: 100px;    
 }
 
+.contenedor-proyectos {
+    display: inline-flex;
+    flex-wrap: wrap;    
+    align-content: center;
+}
+
 .proyecto {
     display: inline-block;
-    flex-wrap: wrap;
     padding: 40px 20px;
     background-color: #fff;
     border: 1px solid #dddfe5;
     border-radius: 8px;
-    width: 300px;
-    height: 300px;
+    width: 370px;
+    height: 370px;
     margin: 10px;
     padding: 30px;
     overflow: hidden;
@@ -270,14 +274,15 @@ header {
 .titulo-proyecto {
     font-size: 20px;
     font-weight: 400;
-    margin-top: 15px;
+    margin-top: 25px;
     color: #2e2e21;
 }
 
 .imagen-proyecto {
+    justify-content: center;
+    align-content: center;
     width: 300px;
-    height: auto;
-    
+    height: auto;    
 }
 
 /* #### SECCION 4 | FOOTER #### */
@@ -344,7 +349,7 @@ footer {
 /* #### RESPONSIVE #### */
 
 @media (max-width: 600px) {
-    /* MENU HAMBURGUESA */
+    /* #### MENU HAMBURGUESA #### */
     .nav-menu {
         display: none;
     }
@@ -358,9 +363,61 @@ footer {
         justify-content: flex-end;
         margin: 15px 50px 10px 0;
     }
-    /* SECCION PRINCIPAL */
+    /* #### SECCION PRINCIPAL #### */
     .seccion-principal {
         flex-direction: column;
         height: auto;
+        margin: 50px 0 0 40px;
+    }
+    .sobremi-descripcion {
+        margin: 30px 0 20px 0;
+    }
+    .imagen {
+        margin: 50px 0;
+    }
+    /* #### SECCION CONOCIMIENTOS #### */
+    .titulo-seccion {
+        margin-bottom: 20px;
+    }
+    .tarjeta {
+        padding: 40px 20px;
+        width: 180px;
+        height: 180px;
+        margin: 10px;
+        padding: 30px;
+    }    
+    .titulo-tarjeta {
+        margin-top: 15px;  
+    }    
+    .imagen-tarjeta {
+        width: 100px;
+    }
+    /* #### SECCION PROYECTOS #### */
+    .proyecto {
+        width: 220px;
+        height: 220px;
+        margin: 10px;
+        padding: 15px;
+    }
+    .imagen-proyecto {
+        width: 200px; 
+    }
+    .titulo-proyecto {
+        font-size: 17px;
+        font-weight: 400;
+        margin-top: 15px;
+    }
+    /* #### SECCION FOOTER #### */
+    .footer-nav {
+        display: none;
+    }
+    .ftr-icon {
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+        padding-top: 10px;
+    }
+    .footer-texto {
+        font-size: 15px;
     }
 }
