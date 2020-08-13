@@ -421,3 +421,128 @@ footer {
         font-size: 15px;
     }
 }
+
+@media (max-width: 400px) {
+    /* #### MENU HAMBURGUESA #### */
+    .nav-menu {
+        display: none;
+    }
+    header {
+        justify-content: flex-end;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    .hamburguesa {
+        display: flex;
+        justify-content: flex-end;
+        margin: 15px 50px 10px 0;
+    }
+    /* #### SECCION PRINCIPAL #### */
+    .seccion-principal {
+        flex-direction: column;
+        height: auto;
+        margin: 30px 0 0 20px;
+    }
+    .nombre {
+        font-size: 45px;
+    }
+    .sobremi-descripcion {
+        margin: 30px 0 20px 0;
+    }
+    .imagen {
+        margin: 30px 0;
+        width: 500px;
+    }
+
+    /* #### SECCION CONOCIMIENTOS #### */
+    .titulo-seccion {
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    .tarjeta {
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        padding: 30px;
+    }    
+    .titulo-tarjeta {
+        margin-top: 0;  
+        font-size: 13px;
+        font-weight: 400;
+    }    
+    .imagen-tarjeta {
+        width: 50px;
+        justify-content: center;
+        align-content: center;
+        margin: 0 20px 20px 0;
+    }
+    /* #### CITA #### */
+    .contenido-cita {
+        height: 200px;
+        
+    }
+    .cita {
+        max-width: 400px;
+        font-size: 17px;
+        margin: 30px 0;   
+        margin-left: 15px; 
+        padding-top: 10px;
+    }
+    .cita-icono {
+        height: 60px;
+        display: flex;
+        justify-content: center;    
+    }
+    .cita-icono img {
+        height: 100%;
+    } 
+    .autor-cita {
+        font-size: 20px;  
+        margin-left: 10px;
+        font-style: italic;  
+    }
+    /* #### SECCION PROYECTOS #### */
+    .nav-proyectos {
+        margin-bottom: 10px;
+    }
+    
+    .filtro-proyectos {
+        margin: 20px 10px 0 0;
+        font-size: 15px;  
+    }
+    
+    .filtro-proyectos.boton {
+        padding: 2px 10px 5px 10px;
+    }
+    .titulo-seccion.sec3 {
+        font-size: 27px;
+    }
+    .proyecto {
+        width: 120px;
+        height: 140px;
+        margin: 10px;
+        padding: 15px;
+    }
+    .imagen-proyecto {
+        width: 100px; 
+        padding-right: 15px;
+    }
+    .titulo-proyecto {
+        font-size: 15px;
+        font-weight: 4300;
+        margin-top: 4px;
+    }
+    /* #### SECCION FOOTER #### */
+    .footer-nav {
+        display: none;
+    }
+    .ftr-icon {
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+        padding-top: 10px;
+    }
+    .footer-texto {
+        font-size: 15px;
+    }
+}
