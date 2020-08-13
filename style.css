@@ -35,6 +35,7 @@ header {
     padding: 10px 80px 0 0;
 }
 
+
 .hamburguesa {
     display: none;
 }
@@ -71,19 +72,6 @@ header {
     border-radius: 100px;
     box-shadow: 2px 8px 10px rgba(115,115, 115, 0.25);
 }
-
-/* .boton:hover {
-    background-color: #ffe2bc;
-    color: #faad80;
-} */
-
-/* .nav-menu a:hover {
-    background-color: #fccdb2;
-    color:#f17b36;
-    border: 1px solid #ffe2cf;
-    padding: 5px 20px;
-    border-radius: 100px;
-} */
 
   /* #### SECCION 1 | PRINCIPAL #### */
 
@@ -422,7 +410,7 @@ footer {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 400px) and (min-width: 300px) {
     /* #### MENU HAMBURGUESA #### */
     .nav-menu {
         display: none;
@@ -432,11 +420,15 @@ footer {
         align-items: center;
         padding-bottom: 20px;
     }
+    .menu {
+        padding: 10px 20px 0 0;
+    }   
     .hamburguesa {
         display: flex;
         justify-content: flex-end;
         margin: 15px 50px 10px 0;
     }
+
     /* #### SECCION PRINCIPAL #### */
     .seccion-principal {
         flex-direction: column;
