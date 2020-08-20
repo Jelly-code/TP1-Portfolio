@@ -2,7 +2,10 @@
 
 Proyecto de portfolio personal realizado en Ada.
 
-HTML5 y CSS3
+## LENGUAJES UTILIZADOS 
+
+### 1. HTML5 
+### 2. CSS3
 
 [Se puede ver aquí](https://jelly-code.github.io/TP1-Portfolio/)
 
@@ -12,6 +15,9 @@ HTML5 y CSS3
 
 Personal portfolio project made at Ada.
 
-HTML5 and CSS3
+## LANGUAGES 
+
+### 1. HTML5
+### 2. CSS3
 
 [See it here](https://jelly-code.github.io/TP1-Portfolio/)
