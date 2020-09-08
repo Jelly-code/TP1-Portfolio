@@ -55,6 +55,7 @@ header {
 }
 
 .link {
+    /* esto no es necesario - ul ya los pone uno al lado del otro  */
     display: inline;
     margin: 10px 35px 0 0;
     justify-content: center;
@@ -67,6 +68,7 @@ header {
 
 .boton {
     background-color: #faad80;
+    /* preferi siempre usar los colores como HEX. En este caso #FFFFFF */
     color: white;
     padding: 2px 20px 5px 20px;
     border-radius: 100px;
@@ -107,6 +109,7 @@ header {
 }
 
 .imagen {
+    /* este width te trae problemas en celulares; habria que arreglarlo en una media query */
     width: 600px;
     padding-top: 10px;
 }
@@ -174,11 +177,15 @@ header {
     color: #5f524d;
     display: flex;
     justify-content: center;
+    /* no es necesario en este caso */
     align-content: center;
     padding: 80px 20px;
 }
 
 .contenido-cita {
+    /* No es bueno darle un height fijo a los elementos. Si cambiaras la cita por una mas larga, 
+    rebalsaria su contenedor. Si queres agrandar un poco mas el tamaño de esto es mejor hacerlo con 
+    padding, asi si eventualmete agregas mas contenido, el diseño no se rompe.  */
     height: 400px;
     
 }
@@ -224,6 +231,8 @@ header {
 .nav-proyectos {
     display: flex;
     justify-content: center;
+
+    /* no veo la necesidad de esto aqui */
     background-color: transparent;
     margin-bottom: 20px;
 }
@@ -399,6 +408,7 @@ span{
 
 h1{
     font-size: 40px;  
+    /* aqui escribiste mal left */
     text-align: letf; 
     padding-bottom: 20px; 
     color: white;

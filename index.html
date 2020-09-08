@@ -14,6 +14,7 @@
 
     <!-- HEADER Y NAV -->
 
+    <!-- No creo que este div sea necesario. No usas nunca la clase header en tu css, ademas.  -->
     <div class="header">
         <header>
             <nav class="menu">
@@ -37,9 +38,20 @@
             <p class="saludo">¡Hola! Soy</p>
             <h1 class="nombre">Javiera Santa María</h1>
             <p class="sobremi-descripcion">Diseñadora gráfica y Programadora Frontend.
+
+                <!-- No se recomienda usar <br> prácticamente nunca. En este caso en particular, 
+                estamos usando <br> para estilar el contenido, violando la regla de separación 
+                de responsabilidades entre CSS y HTML. 
+                CSS debe ser el único encargado de estilar nuestra web. 
+                En este caso, por ejemplo, podríamos poner cada línea dentro de un <span> y decirle en el 
+                CSS a .frase: display: flex; flex-direction: column;. O simplemente dos <p>. 
+                De esta manera nos aseguramos de que el HTML sólo de estructura, y el CSS el estilado -->
                 <br />Amante de los 🐈 y el ☕.</p>
             <a href="#proyectos" class="boton btn-principal">LO QUE HAGO</a>
         </div>
+
+        <!-- Preferiria "contenedor-imagen" e "imagen" como clases, ya que no queda claro viendo el css
+        cual es el contenedor y cual es la img -->
         <div class="imagen">
             <img src="img/img-principal.png" alt="Principal" class="imagen-principal" />
         </div>
